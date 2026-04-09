@@ -1,0 +1,75 @@
+{
+  "name": "gate-da-tracker — GATE DA 2027 Tracker",
+  "short_name": "gate-da-tracker",
+  "description": "Offline GATE DA 2027 prep tracker with Pomodoro, PYQ, notes, flashcards and analytics.",
+  "start_url": "/gate-da-tracker/",
+  "scope": "/gate-da-tracker/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1e1c1a",
+  "theme_color": "#c17c3e",
+  "lang": "en",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Dashboard with live countdown"
+    },
+    {
+      "src": "screenshots/tracker.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "GATE DA Unit Tracker"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pomodoro Timer",
+      "short_name": "Timer",
+      "description": "Jump straight to the focus timer",
+      "url": "/gate-da-tracker/#pomodoro",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "GATE DA Tracker",
+      "short_name": "Tracker",
+      "description": "Open the GATE DA syllabus tracker",
+      "url": "/gate-da-tracker/#gate-da",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}
